@@ -94,6 +94,12 @@ body{
     position: absolute;
 }
 
+#explosao3{
+    width: 44px;
+    height: 51px;
+    position: absolute;
+}
+
 @keyframes play{
     from {background-position: 0px;}
     to {background-position: -512px;}
@@ -121,3 +127,13 @@ body{
     animation: play2 .9s steps(12) infinite;
 }
 
+@keyframes play3{
+    from{background-position: 0px;}
+    to{background-position: -308px;}
+}
+.anima-amigo-morte{
+    width: 44px;
+    height: 51px;
+    background-image: url(../img/amigo_morte.png);
+    animation: play3 .5s steps(7) infinite;
+}
